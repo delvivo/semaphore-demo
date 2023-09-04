@@ -1,10 +1,10 @@
 - name: Network Getting Started First Playbook
   hosts: all
   tasks:
-    - name: apt-get update
-      become: true
-      ansible.builtin.apt:
-        update_cache: yes
+    # - name: apt-get update
+      # become: true
+      # ansible.builtin.apt:
+        # update_cache: yes
     - name: Install vim
       become: true
       ansible.builtin.apt:
